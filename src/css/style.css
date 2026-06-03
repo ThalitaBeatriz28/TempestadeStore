@@ -1,7 +1,7 @@
 /* DEFININDO AS VARIAVEIS GLOBAIS */
 
 :root{
-    --color-primary: #A020F0;
+    --color-primary: #5c0064;
     --bg-dark: #141414;
     --bg-card:#555;
     --text-color:#fff;
@@ -112,6 +112,7 @@ nav ul li a:hover{
     font-size: 1.5rem;
     color:var(--btn-color);
     margin-bottom: 20px;
+
 }
 
 .preco{
@@ -141,4 +142,5 @@ footer{
 .subtitulo{
     color:#fff;
     font-size: 15px;
+    -webkit-text-stroke: 0.2px var(--color-primary)
 }
